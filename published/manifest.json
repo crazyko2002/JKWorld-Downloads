@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "flow_version": "2.0.0",
-  "published_at": "2026-06-19T14:29:45.284274+00:00",
+  "flow_version": "2026.06.20.144925",
+  "published_at": "2026-06-20T14:49:25.922200+00:00",
   "bundle": {
-    "source": "bundles/flow-2.0.0.zip",
-    "sha256": "cfe073cf4a6641d15ebbe13d2260075c86f99b5b93733f0f7c8094252a32d61b",
-    "size": 4334951
+    "source": "bundles/flow-2026.06.20.144925.zip",
+    "sha256": "ee8ff447352e451e61f4220b394c75d09ce80be0d965508d28e61114e66c7aee",
+    "size": 8816338
   },
   "files": [
     {
       "path": "config.yaml",
       "source": "files/config.yaml",
-      "sha256": "b73601e24d57965070bbfbaace45cf82d6e4c6965cf3f42b4e48f7cb75dabcb7",
-      "size": 1787
+      "sha256": "685e6f5fe52d95dd2ddff3b0a516c1db0401da194549309fdaba4b5b3608fcea",
+      "size": 2460
     },
     {
       "path": "macro_config.yaml",
@@ -91,6 +91,54 @@
       "source": "files/templates/condition_1781826303.png",
       "sha256": "4adff26a9c668ac22ffb639987c90bae0675a80869da86b704b59f38a348baef",
       "size": 454566
+    },
+    {
+      "path": "templates/condition_1781957456.png",
+      "source": "files/templates/condition_1781957456.png",
+      "sha256": "e207768decc847c027e480069ffb5d9e52ae700990ad5691b47b942d192a3784",
+      "size": 1653781
+    },
+    {
+      "path": "templates/group_1781957391851.png",
+      "source": "files/templates/group_1781957391851.png",
+      "sha256": "e7ffc89be3dd10340eda37e539c5f56c212a96cfa610c77207c5f937bb0e9983",
+      "size": 6996
+    },
+    {
+      "path": "templates/group_1781957406001.png",
+      "source": "files/templates/group_1781957406001.png",
+      "sha256": "273a5c8243f9b40c30a284808a92d83a7445eab9f9e8ef5355875494bbcebb51",
+      "size": 5785
+    },
+    {
+      "path": "templates/group_1781957471287.png",
+      "source": "files/templates/group_1781957471287.png",
+      "sha256": "3b3709e6c5f7ad39587d43fb332e8c99995029003319bc988466628d92def1c8",
+      "size": 1655452
+    },
+    {
+      "path": "templates/group_1781957490932.png",
+      "source": "files/templates/group_1781957490932.png",
+      "sha256": "66cde55744389d5895fa7a52226f1adf9a82a5b7bfc5cedbc66206037c643b39",
+      "size": 1131753
+    },
+    {
+      "path": "templates/group_1781957593082.png",
+      "source": "files/templates/group_1781957593082.png",
+      "sha256": "4357bda7b1e050a75335aa43845231b7452c8c442e1b54514d9040188f166b46",
+      "size": 34802
+    },
+    {
+      "path": "templates/group_1781957608851.png",
+      "source": "files/templates/group_1781957608851.png",
+      "sha256": "e340d1161659ac086656f64d6f477e6bc4dbada958d61afa0a2f6d087dc10a5f",
+      "size": 52443
+    },
+    {
+      "path": "templates/group_1781959568347.png",
+      "source": "files/templates/group_1781959568347.png",
+      "sha256": "59670e956cbb92d14a5a922b010c482a3508bc8b6e5d5efed81f10afe25d24b5",
+      "size": 52120
     },
     {
       "path": "recordings/latest_recording.yaml",

@@ -14,7 +14,7 @@ local_ocr:
     threshold: 0.82
     click_interval: 0.35
 rules:
-- name: '123'
+- name: 逃離博物館 17speed
   enabled: true
   template: templates/123.png
   threshold: 0.9
@@ -24,21 +24,48 @@ rules:
   program:
   - type: if
     condition:
-      type: image
-      operator: appears
-      template: templates/condition_1781820526.png
-      threshold: 0.9
+      type: image_any
+      threshold: 0.85
+      templates:
+      - templates/group_1781957391851.png
+      - templates/group_1781957406001.png
     then:
     - type: click
-      target: match
-    - type: move
       delay: 0.0
       backend: directinput
-      target: park
+      target: match
       x: 0
       y: 0
-      margin: 20
-      duration: 0.2
+      clicks: 1
+      button: left
+    - type: if
+      condition:
+        type: image_any
+        threshold: 0.85
+        templates:
+        - templates/group_1781959568347.png
+      then:
+      - type: click
+        delay: 0.0
+        backend: directinput
+        target: match
+        x: 0
+        y: 0
+        clicks: 1
+        button: left
+      - type: press
+        delay: 2.0
+        backend: directinput
+        key: escape
+        presses: 1
+      else:
+      - type: press
+        delay: 0.0
+        backend: directinput
+        key: escape
+        presses: 2
+      - type: restart_flow
+        delay: 2.0
     else: []
   - type: if
     condition:
@@ -64,6 +91,8 @@ rules:
       repeat_count: 1
       repeat_delay: 0.0
       speed_percent: 100.0
+    - type: restart_flow
+      delay: 0.0
     else: []
 - name: 驗證碼自動輸入
   enabled: true
@@ -85,3 +114,5 @@ rules:
       key: enter
       presses: 1
     else: []
+  - type: restart_flow
+    delay: 0.0
