@@ -1,0 +1,22 @@
+version: 1
+name: daily_1
+created_at: '2026-06-22T07:41:04'
+duration_seconds: 2.754325
+event_count: 4
+key_down_count: 2
+key_up_count: 2
+balanced: true
+keys_still_down: []
+events:
+- time: 1.078248
+  action: key_down
+  key: right
+- time: 1.409789
+  action: key_down
+  key: up
+- time: 1.483752
+  action: key_up
+  key: right
+- time: 2.754325
+  action: key_up
+  key: up

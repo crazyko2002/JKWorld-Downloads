@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "flow_version": "2026.06.21.223320",
-  "published_at": "2026-06-21T22:33:21.277109+00:00",
+  "flow_version": "2026.06.21.234729",
+  "published_at": "2026-06-21T23:47:29.904090+00:00",
   "bundle": {
-    "source": "bundles/flow-2026.06.21.223320.zip",
-    "sha256": "eb9da831b3befd420f1419628584fc97529a23a4aea6479f0f45acf1db3c00fe",
-    "size": 8905658
+    "source": "bundles/flow-2026.06.21.234729.zip",
+    "sha256": "1e4e51431706387a4839a905bb1cefe97e11016af67946efa9c844946637d031",
+    "size": 9047452
   },
   "files": [
     {
       "path": "config.yaml",
       "source": "files/config.yaml",
-      "sha256": "711a935024de7764326a5c3d6461cefe126d765cbe03004360e01592a278a0f2",
-      "size": 4779
+      "sha256": "3d186af516fb0c11d3c07d1eff9609f1c04eb45fb3344a6b2407af12bbddb20a",
+      "size": 8120
     },
     {
       "path": "macro_config.yaml",
       "source": "files/macro_config.yaml",
-      "sha256": "750c96d31cb7bacd02631d95efea6f9724ab763f454bed4957b58b9df76ef6bb",
-      "size": 18172
+      "sha256": "6756cec3cef54851018b16f91371280c32022475336c924e7ddd59fd5a33d3fa",
+      "size": 293
     },
     {
       "path": "templates/123.png",
@@ -147,6 +147,48 @@
       "size": 6114
     },
     {
+      "path": "templates/condition_1782082362.png",
+      "source": "files/templates/condition_1782082362.png",
+      "sha256": "da9c9b8dcc6e686f51b81f111173ce63a1d589d633dbb8e940d9338f91ecc8f9",
+      "size": 53721
+    },
+    {
+      "path": "templates/condition_1782082385.png",
+      "source": "files/templates/condition_1782082385.png",
+      "sha256": "95d51adddad29a26c5975e2c636f1f3dbdd3afbe3ff12c00fb8f9f76261f1206",
+      "size": 58553
+    },
+    {
+      "path": "templates/condition_1782085174.png",
+      "source": "files/templates/condition_1782085174.png",
+      "sha256": "71cf47557035753a12796155c2c78fb3c758e64dbd9a47e1bf8136bc58a9eacf",
+      "size": 10357
+    },
+    {
+      "path": "templates/condition_1782085334.png",
+      "source": "files/templates/condition_1782085334.png",
+      "sha256": "82dbee010c25cb3a89df28e668ec13ea1e60d58afde1ae0d19bb66f007c5d244",
+      "size": 4139
+    },
+    {
+      "path": "templates/condition_1782085431.png",
+      "source": "files/templates/condition_1782085431.png",
+      "sha256": "ffae89dac288b38f8662527f67c3c760f0b2719748f061d650c150631d8a895e",
+      "size": 2490
+    },
+    {
+      "path": "templates/condition_1782085539.png",
+      "source": "files/templates/condition_1782085539.png",
+      "sha256": "ded5d4e331d63d0efd5a17b71f6fbcf99762291756255ba9427d9e6cae80b6f8",
+      "size": 3046
+    },
+    {
+      "path": "templates/condition_1782085575.png",
+      "source": "files/templates/condition_1782085575.png",
+      "sha256": "3873ec045784e4164019ef10289a4146d7e0daacc4deabbaef092f3408d0c613",
+      "size": 11992
+    },
+    {
       "path": "templates/group_1781957391851.png",
       "source": "files/templates/group_1781957391851.png",
       "sha256": "e7ffc89be3dd10340eda37e539c5f56c212a96cfa610c77207c5f937bb0e9983",
@@ -187,6 +229,12 @@
       "source": "files/templates/group_1781959568347.png",
       "sha256": "59670e956cbb92d14a5a922b010c482a3508bc8b6e5d5efed81f10afe25d24b5",
       "size": 52120
+    },
+    {
+      "path": "recordings/daily_1.yaml",
+      "source": "files/recordings/daily_1.yaml",
+      "sha256": "58012e48b7f1b5ed898d74c3d0325db59712195b0da8dc1d9b40a5c953d4510a",
+      "size": 364
     },
     {
       "path": "recordings/keroro.yaml",
