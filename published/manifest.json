@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "flow_version": "2026.07.06.222044",
+  "flow_version": "2026.07.06.230634",
   "min_app_version": "",
-  "published_at": "2026-07-06T22:20:45.008439+00:00",
+  "published_at": "2026-07-06T23:06:34.473926+00:00",
   "bundle": {
-    "source": "bundles/flow-2026.07.06.222044.zip",
-    "sha256": "40983639460aedb4b2b0a7e9c69c8f5678a18072e44a2dd676256f1fdd211e25",
-    "size": 9016738
+    "source": "bundles/flow-2026.07.06.230634.zip",
+    "sha256": "b5b7f864e25900a81709f9b927d9e925728d0da288ee5e2cec1e314d69d9b58f",
+    "size": 10683534
   },
   "files": [
     {
       "path": "config.yaml",
       "source": "files/config.yaml",
-      "sha256": "3d186af516fb0c11d3c07d1eff9609f1c04eb45fb3344a6b2407af12bbddb20a",
-      "size": 8120
+      "sha256": "b7a50b0c83009037b4611a5465d067f7a6bc0b43c6619bd63a69229f4f872fb5",
+      "size": 8321
     },
     {
       "path": "macro_config.yaml",
@@ -230,6 +230,48 @@
       "source": "files/templates/group_1781959568347.png",
       "sha256": "59670e956cbb92d14a5a922b010c482a3508bc8b6e5d5efed81f10afe25d24b5",
       "size": 52120
+    },
+    {
+      "path": "templates/group_1783377871100.png",
+      "source": "files/templates/group_1783377871100.png",
+      "sha256": "656876eb59737e745d8ea206f211c68fd6c5fdbde994fcbfb45f18b9961f29b8",
+      "size": 34646
+    },
+    {
+      "path": "templates/group_1783378106520.png",
+      "source": "files/templates/group_1783378106520.png",
+      "sha256": "82d5365dcf0342f78f2e465cb14e142f9b2404d859003a613d6e576734de78c0",
+      "size": 4682
+    },
+    {
+      "path": "templates/group_1783378118830.png",
+      "source": "files/templates/group_1783378118830.png",
+      "sha256": "ce674c668b94e5c87c0d9a94ed12713260da29f9e546b6c39eb929671cf65948",
+      "size": 7033
+    },
+    {
+      "path": "templates/group_1783378396209.png",
+      "source": "files/templates/group_1783378396209.png",
+      "sha256": "e88fa5ed348ab2dcfba20cda1f3a8703a52e46ba4825328f82928d0de43fd8e7",
+      "size": 122331
+    },
+    {
+      "path": "templates/group_1783378464875.png",
+      "source": "files/templates/group_1783378464875.png",
+      "sha256": "db9a7c5fad0eebd9c213f8160ed35ef2baf2e8607a6c51e92c9fcdbabe53f479",
+      "size": 204616
+    },
+    {
+      "path": "templates/group_1783379066785.png",
+      "source": "files/templates/group_1783379066785.png",
+      "sha256": "524dbfe0540a9efe755afe33403882019938ed2659106cc43fdde523110650df",
+      "size": 601484
+    },
+    {
+      "path": "templates/group_1783379087263.png",
+      "source": "files/templates/group_1783379087263.png",
+      "sha256": "7f675838c2ddd91ed1866e5c4ee9c087413546819993711faa961ef729aa64e8",
+      "size": 719939
     },
     {
       "path": "recordings/daily_1.yaml",

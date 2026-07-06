@@ -29,6 +29,8 @@ rules:
       templates:
       - templates/group_1781957391851.png
       - templates/group_1781957406001.png
+      - templates/group_1783378106520.png
+      - templates/group_1783378118830.png
     then:
     - type: click
       delay: 0.0
@@ -44,6 +46,7 @@ rules:
         threshold: 0.85
         templates:
         - templates/group_1781959568347.png
+        - templates/group_1783377871100.png
       then:
       - type: click
         delay: 0.0
@@ -71,10 +74,12 @@ rules:
       delay: 0.0
   - type: if
     condition:
-      type: image
-      operator: appears
-      template: templates/condition_1781821331.png
+      type: image_any
       threshold: 0.6
+      templates:
+      - templates/condition_1781821331.png
+      - templates/group_1783379066785.png
+      - templates/group_1783379087263.png
     then:
     - type: press
       delay: 1.0
