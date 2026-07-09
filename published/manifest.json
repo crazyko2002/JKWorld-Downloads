@@ -1,14 +1,38 @@
 {
   "schema_version": 1,
-  "flow_version": "3.0",
+  "flow_version": "3.0.1",
   "min_app_version": "3.0",
-  "published_at": "2026-07-09T09:50:02.915907+00:00",
+  "published_at": "2026-07-09T10:05:14.113808+00:00",
   "bundle": {
-    "source": "bundles/flow-3.0.zip",
-    "sha256": "f975ba85c09c6f7638438bd3641c5bc81b7a5a13e4d4406ba657d9762ec2db27",
-    "size": 14931448
+    "source": "bundles/flow-3.0.1.zip",
+    "sha256": "e25d59487b0548bbaa9ea339c026d8b2f1d4895332553dbf7c23e39445023e1d",
+    "size": 14933865
   },
   "files": [
+    {
+      "path": "flows/official/daily-event.flow.yaml",
+      "source": "files/flows/official/daily-event.flow.yaml",
+      "sha256": "5602e7389eb951c697857598d8d021008b4ed2eabf94da4d4a1002298267dea0",
+      "size": 3011
+    },
+    {
+      "path": "flows/official/keroro.flow.yaml",
+      "source": "files/flows/official/keroro.flow.yaml",
+      "sha256": "4a2e9fd8f8ddabc8fa7a44daa6a87b9ae7e2fad11647be4b752da0e8b002d2cc",
+      "size": 2048
+    },
+    {
+      "path": "flows/official/逃離博物館-17speed.flow.yaml",
+      "source": "files/flows/official/逃離博物館-17speed.flow.yaml",
+      "sha256": "5401b1ab2063a73d07bf642b1aacfd9f65eb78ff0796f02a73ba72136a1270f8",
+      "size": 2418
+    },
+    {
+      "path": "flows/official/驗證碼自動輸入.flow.yaml",
+      "source": "files/flows/official/驗證碼自動輸入.flow.yaml",
+      "sha256": "5920525127144c7c96c310afe99786c6ffc44583a671c984beb8b408345affe5",
+      "size": 323
+    },
     {
       "path": "macro_config.yaml",
       "source": "files/macro_config.yaml",

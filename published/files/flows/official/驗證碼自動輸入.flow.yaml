@@ -1,0 +1,17 @@
+name: 驗證碼自動輸入
+enabled: true
+cooldown_seconds: 0.5
+program:
+- type: if
+  condition:
+    type: captcha
+    template: templates/captcha_reference.png
+    threshold: 0.82
+  then:
+  - type: ocr_keypad
+    mode: captcha
+    backend: directinput
+    click_interval: 0.35
+  else: []
+- type: restart_flow
+  delay: 0.0

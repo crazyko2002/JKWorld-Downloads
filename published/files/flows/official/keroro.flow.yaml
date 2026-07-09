@@ -1,0 +1,116 @@
+name: Keroro
+enabled: true
+cooldown_seconds: 0.05
+program:
+- type: if
+  condition:
+    type: image
+    operator: appears
+    template: templates/condition_1782078592.png
+    threshold: 0.9
+  then:
+  - type: click
+    delay: 0.0
+    backend: directinput
+    target: match
+    x: 0
+    y: 0
+    clicks: 1
+    button: left
+  else:
+  - type: if
+    condition:
+      type: image
+      operator: appears
+      template: templates/condition_1782079849.png
+      threshold: 0.9
+    then:
+    - type: click
+      delay: 0.0
+      backend: directinput
+      target: match
+      x: 0
+      y: 0
+      clicks: 1
+      button: left
+    else: []
+- type: if
+  condition:
+    type: image
+    operator: appears
+    template: templates/condition_1782078632.png
+    threshold: 0.9
+  then:
+  - type: click
+    delay: 0.0
+    backend: directinput
+    target: match
+    x: 0
+    y: 0
+    clicks: 1
+    button: left
+  - type: press
+    delay: 1.0
+    backend: directinput
+    key: enter
+    presses: 1
+  else:
+  - type: goto_step
+    delay: 0.0
+    step: 3
+- type: if
+  condition:
+    type: image
+    operator: appears
+    template: templates/condition_1782080571.png
+    threshold: 0.9
+  then:
+  - type: click
+    delay: 0.0
+    backend: directinput
+    target: match
+    x: 0
+    y: 0
+    clicks: 1
+    button: left
+  - type: press
+    delay: 1.0
+    backend: directinput
+    key: shift
+    presses: 1
+  else: []
+- type: if
+  condition:
+    type: image
+    operator: appears
+    template: templates/condition_1782079969.png
+    threshold: 0.9
+  then:
+  - type: click
+    delay: 0.0
+    backend: directinput
+    target: match
+    x: 0
+    y: 0
+    clicks: 1
+    button: left
+  - type: press
+    delay: 1.0
+    backend: directinput
+    key: enter
+    presses: 1
+  - type: play_record
+    delay: 0.5
+    backend: directinput
+    recording_file: recordings/keroro_1.yaml
+    repeat_count: 1
+    repeat_delay: 0.5
+    speed_percent: 100.0
+  - type: press
+    delay: 0.5
+    backend: directinput
+    key: enter
+    presses: 1
+  - type: restart_flow
+    delay: 0.0
+  else: []
