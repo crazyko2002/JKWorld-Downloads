@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "flow_version": "3.0.1",
-  "min_app_version": "3.0",
-  "published_at": "2026-07-09T10:05:14.113808+00:00",
+  "flow_version": "2026.07.09.225215",
+  "min_app_version": "",
+  "published_at": "2026-07-09T22:52:16.316342+00:00",
   "bundle": {
-    "source": "bundles/flow-3.0.1.zip",
-    "sha256": "e25d59487b0548bbaa9ea339c026d8b2f1d4895332553dbf7c23e39445023e1d",
-    "size": 14933865
+    "source": "bundles/flow-2026.07.09.225215.zip",
+    "sha256": "95e81d6c2c9da81f239ed36c73107664552093e8387c3e9cb9425e9b76908318",
+    "size": 15033120
   },
   "files": [
     {
@@ -36,8 +36,8 @@
     {
       "path": "macro_config.yaml",
       "source": "files/macro_config.yaml",
-      "sha256": "6756cec3cef54851018b16f91371280c32022475336c924e7ddd59fd5a33d3fa",
-      "size": 293
+      "sha256": "feec4c805b7491a0623a6f6107c9f924f409b691349ac8c1a68abc1085fff6e3",
+      "size": 7660
     },
     {
       "path": "templates/123.png",
@@ -214,6 +214,12 @@
       "size": 1615335
     },
     {
+      "path": "templates/condition_1783635564.png",
+      "source": "files/templates/condition_1783635564.png",
+      "sha256": "2fbe5c56dace31ec0bd72f55966227afd7a0fd88c7c5bc07044105a7522cf0a2",
+      "size": 98266
+    },
+    {
       "path": "templates/group_1781957391851.png",
       "source": "files/templates/group_1781957391851.png",
       "sha256": "e7ffc89be3dd10340eda37e539c5f56c212a96cfa610c77207c5f937bb0e9983",
@@ -380,6 +386,12 @@
       "source": "files/recordings/leaving_easy.yaml",
       "sha256": "14f875546f1cb7c64029543ea5a9288bff7a621d8429065a25bd4f879d31e46b",
       "size": 3625
+    },
+    {
+      "path": "recordings/杰作.yaml",
+      "source": "files/recordings/杰作.yaml",
+      "sha256": "e48e32c9a8457d2fa78b3fecddd6778f4f3aa6b759f427b759c4ae2726ec10c4",
+      "size": 7736
     },
     {
       "path": "numpad/num0.png",
