@@ -1,20 +1,14 @@
 {
   "schema_version": 1,
-  "flow_version": "2026.07.06.235622",
-  "min_app_version": "",
-  "published_at": "2026-07-06T23:56:22.878827+00:00",
+  "flow_version": "3.0",
+  "min_app_version": "3.0",
+  "published_at": "2026-07-09T09:50:02.915907+00:00",
   "bundle": {
-    "source": "bundles/flow-2026.07.06.235622.zip",
-    "sha256": "607bc65f9a08f6f209efcdca52a3acbd9f453fe2ba991527175953869663e7a4",
-    "size": 10683534
+    "source": "bundles/flow-3.0.zip",
+    "sha256": "f975ba85c09c6f7638438bd3641c5bc81b7a5a13e4d4406ba657d9762ec2db27",
+    "size": 14931448
   },
   "files": [
-    {
-      "path": "config.yaml",
-      "source": "files/config.yaml",
-      "sha256": "b7a50b0c83009037b4611a5465d067f7a6bc0b43c6619bd63a69229f4f872fb5",
-      "size": 8321
-    },
     {
       "path": "macro_config.yaml",
       "source": "files/macro_config.yaml",
@@ -190,6 +184,12 @@
       "size": 11992
     },
     {
+      "path": "templates/condition_1783567060.png",
+      "source": "files/templates/condition_1783567060.png",
+      "sha256": "46c5e3e41e6af96c0d4eb64a4636ce151fd561e1d81346f5b99c1e7c2ad9e7e6",
+      "size": 1615335
+    },
+    {
       "path": "templates/group_1781957391851.png",
       "source": "files/templates/group_1781957391851.png",
       "sha256": "e7ffc89be3dd10340eda37e539c5f56c212a96cfa610c77207c5f937bb0e9983",
@@ -272,6 +272,18 @@
       "source": "files/templates/group_1783379087263.png",
       "sha256": "7f675838c2ddd91ed1866e5c4ee9c087413546819993711faa961ef729aa64e8",
       "size": 719939
+    },
+    {
+      "path": "templates/group_1783567085443.png",
+      "source": "files/templates/group_1783567085443.png",
+      "sha256": "aff091a341a5ab1a35daed97c5f90fa193052bf42ccab2168b021f49b9ff47ef",
+      "size": 1608623
+    },
+    {
+      "path": "templates/group_1783567097090.png",
+      "source": "files/templates/group_1783567097090.png",
+      "sha256": "60ed9735a1db4200e56ad28bba0d8bd69e3ef83ed0fb35aa75c489d2a6fbf36a",
+      "size": 1143986
     },
     {
       "path": "recordings/daily_1.yaml",
