@@ -1,0 +1,64 @@
+name: 閂作
+enabled: true
+cooldown_seconds: 0.05
+program:
+- type: if
+  condition:
+    type: image_any
+    threshold: 0.9
+    templates:
+    - templates/condition_1783651342.png
+    - templates/螢幕擷取畫面 2026-07-10 105953.png
+    - templates/group_1783652473280.png
+  then:
+  - type: click
+    delay: 0.0
+    backend: directinput
+    target: match
+    x: 0
+    y: 0
+    clicks: 1
+    button: left
+  - type: restart_flow
+    delay: 0.0
+  else:
+  - type: goto_step
+    delay: 0.0
+    step: 2
+- type: if
+  condition:
+    type: image
+    operator: appears
+    template: templates/condition_1783650792.png
+    threshold: 0.9
+  then:
+  - type: click
+    delay: 0.0
+    backend: directinput
+    target: match
+    x: 0
+    y: 0
+    clicks: 1
+    button: left
+  - type: if
+    condition:
+      type: image
+      operator: appears
+      template: templates/condition_1783650929.png
+      threshold: 0.95
+    then:
+    - type: click
+      delay: 0.0
+      backend: directinput
+      target: match
+      x: 0
+      y: 0
+      clicks: 1
+      button: left
+    else:
+    - type: goto_step
+      delay: 0.0
+      step: 2
+  else: []
+- type: restart_flow
+  delay: 0.0

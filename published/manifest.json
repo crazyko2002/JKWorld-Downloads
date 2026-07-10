@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "flow_version": "2026.07.10.023040",
-  "min_app_version": "",
-  "published_at": "2026-07-10T02:30:41.210734+00:00",
+  "flow_version": "2026.07.10.120412",
+  "min_app_version": "v3.0.5",
+  "published_at": "2026-07-10T12:04:13.614825+00:00",
   "bundle": {
-    "source": "bundles/flow-2026.07.10.023040.zip",
-    "sha256": "015e886f0e09ac0272e3f9ff62e63ba361868f85b0bdec41555268c9486ae3fb",
-    "size": 15033120
+    "source": "bundles/flow-2026.07.10.120412.zip",
+    "sha256": "39d763d927958f3923ba37b9394c8976128c7f149829eb1a9836fa92fcd5c128",
+    "size": 15102523
   },
   "files": [
     {
@@ -14,6 +14,12 @@
       "source": "files/flows/official/daily-event.flow.yaml",
       "sha256": "5602e7389eb951c697857598d8d021008b4ed2eabf94da4d4a1002298267dea0",
       "size": 3011
+    },
+    {
+      "path": "flows/official/flow-8.flow.yaml",
+      "source": "files/flows/official/flow-8.flow.yaml",
+      "sha256": "30c2c33f791562a38d14d00a8b526472145184561efa04f75ccf6af824c06ecd",
+      "size": 1160
     },
     {
       "path": "flows/official/keroro.flow.yaml",
@@ -30,8 +36,8 @@
     {
       "path": "flows/official/驗證碼自動輸入.flow.yaml",
       "source": "files/flows/official/驗證碼自動輸入.flow.yaml",
-      "sha256": "5920525127144c7c96c310afe99786c6ffc44583a671c984beb8b408345affe5",
-      "size": 323
+      "sha256": "e9a251930b165b7c4e49ea29dd90658ef592598aadc378910af9ed9fe5b3888e",
+      "size": 338
     },
     {
       "path": "macro_config.yaml",
@@ -220,6 +226,24 @@
       "size": 98266
     },
     {
+      "path": "templates/condition_1783650792.png",
+      "source": "files/templates/condition_1783650792.png",
+      "sha256": "8065e1c963715b06ac8a3c0248e71f996abfff14b8af723ecbadd56ea273bf87",
+      "size": 49984
+    },
+    {
+      "path": "templates/condition_1783650929.png",
+      "source": "files/templates/condition_1783650929.png",
+      "sha256": "d304b4b694206aa0b40d36b77c4ff9c0341e1d08afac39c5ffada614f149da87",
+      "size": 12930
+    },
+    {
+      "path": "templates/condition_1783651342.png",
+      "source": "files/templates/condition_1783651342.png",
+      "sha256": "ae11b2ae17965dbee21ce863561f255ea8a0e70db6288ca54ad4ae8dda358a40",
+      "size": 3077
+    },
+    {
       "path": "templates/group_1781957391851.png",
       "source": "files/templates/group_1781957391851.png",
       "sha256": "e7ffc89be3dd10340eda37e539c5f56c212a96cfa610c77207c5f937bb0e9983",
@@ -314,6 +338,18 @@
       "source": "files/templates/group_1783567097090.png",
       "sha256": "60ed9735a1db4200e56ad28bba0d8bd69e3ef83ed0fb35aa75c489d2a6fbf36a",
       "size": 1143986
+    },
+    {
+      "path": "templates/group_1783652473280.png",
+      "source": "files/templates/group_1783652473280.png",
+      "sha256": "003075da2e762d26ef088ef292694fda28b276c94837f0b30202be7e76a5a4a2",
+      "size": 1216
+    },
+    {
+      "path": "templates/螢幕擷取畫面 2026-07-10 105953.png",
+      "source": "files/templates/螢幕擷取畫面 2026-07-10 105953.png",
+      "sha256": "1e3dd373f4fa60005e7a4485f204038f194c95fa751fa58bbfce4f1ab028cebf",
+      "size": 2410
     },
     {
       "path": "recordings/daily_1.yaml",

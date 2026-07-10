@@ -9,9 +9,10 @@ program:
     threshold: 0.82
   then:
   - type: ocr_keypad
-    mode: captcha
+    delay: 0.0
     backend: directinput
-    click_interval: 0.35
+    click_interval: 0.65
+    mode: captcha
   else: []
 - type: restart_flow
   delay: 0.0
